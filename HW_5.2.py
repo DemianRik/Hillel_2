@@ -17,7 +17,7 @@ while True:
     else:
         print("Невідома операція!")
 
-    work_next = input("Бажаєте зробити ще одне обчислення? (y/yes щоб продовжити): ")#.lower()
+    work_next = input("Бажаєте зробити ще одне обчислення? (y/yes щоб продовжити): ").lower()
     if work_next not in ('y', 'yes'):
         print("Дякую за користування калькулятором!")
         break
