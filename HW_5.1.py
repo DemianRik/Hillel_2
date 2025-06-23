@@ -6,7 +6,6 @@ result = (name.isidentifier() and
     name not in keyword.kwlist and
     not any(char in string.punctuation.replace("_", "") for char in name) and
     name == name.lower() and
-    not name[0].isdigit() and
-    name.count("_") <= 1)
+    not name[0].isdigit())
 
 print(result)
